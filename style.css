@@ -99,19 +99,12 @@ h1 {
     animation: fadeIn 0.4s ease;
 }
 
-/* Immagini ridimensionate */
-.popup img {
-    max-width: 90%;
-    max-height: 50vh;
-    object-fit: contain;
-    border-radius: 10px;
-    margin-bottom: 15px;
-}
-
-/* Video responsive */
+/* Immagini e video ridimensionati */
+.popup img,
 .popup video {
     max-width: 90%;
     max-height: 50vh;
+    object-fit: contain;
     border-radius: 10px;
     margin-bottom: 15px;
 }

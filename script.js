@@ -17,9 +17,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 dayDiv.classList.add('day');
                 dayDiv.textContent = i;
 
-                if (i > currentDay) {
-                    dayDiv.classList.add('locked');
-                } else {
+            //    if (i > currentDay) {
+              //      dayDiv.classList.add('locked');
+               // } else {
                     dayDiv.addEventListener('click', () => {
                         const item = data.find(d => d.day === i);
                         if (item) {
