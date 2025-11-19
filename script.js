@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', () => {
     const calendar = document.getElementById('calendar');
     const popup = document.getElementById('popup');
@@ -11,18 +12,13 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(data => {
             const today = new Date();
             const currentDay = today.getDate();
-            const currentMonth = today.getMonth() + 1; // dicembre = 12
 
             for (let i = 1; i <= 24; i++) {
                 const dayDiv = document.createElement('div');
                 dayDiv.classList.add('day');
                 dayDiv.textContent = i;
 
-                // ✅ DEBUG MODE: tutte le caselle cliccabili
-                // Per ripristinare il controllo su data e mese:
-                // if (currentMonth === 12 && i > currentDay) {
-                //     dayDiv.classList.add('locked');
-                // } else {
+                // DEBUG: tutte le caselle cliccabili
                 dayDiv.addEventListener('click', () => {
                     const item = data.find(d => d.day === i);
                     if (item) {
@@ -35,23 +31,20 @@ document.addEventListener('DOMContentLoaded', () => {
                             popupVideo.style.display = 'block';
                             popupImage.style.display = 'none';
                         }
-                        popupText.textContent = item.text || "Nessuna frase disponibile";
+                        popupText.textContent = item.text;
                         popup.style.display = 'flex';
                     }
                 });
-                // }
 
                 calendar.appendChild(dayDiv);
             }
         });
 
-    // ✅ Chiudi popup con X
     closeBtn.addEventListener('click', () => {
         popup.style.display = 'none';
         popupVideo.pause();
     });
 
-    // ✅ Chiudi popup cliccando fuori
     window.addEventListener('click', (e) => {
         if (e.target === popup) {
             popup.style.display = 'none';
