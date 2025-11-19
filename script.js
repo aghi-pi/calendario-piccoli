@@ -16,11 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const dayDiv = document.createElement('div');
                 dayDiv.classList.add('day');
                 dayDiv.textContent = i;
-
-            //    if (i > currentDay) {
-              //      dayDiv.classList.add('locked');
-               // } else {
-                    dayDiv.addEventListener('click', () => {
+				dayDiv.addEventListener('click', () => {
                         const item = data.find(d => d.day === i);
                         if (item) {
                             if (item.type === 'image') {
