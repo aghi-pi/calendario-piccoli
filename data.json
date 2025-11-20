@@ -115,32 +115,32 @@
     },
     {
         "day": 20,
-        "type": "image",
-        "src": "images/20.jpg",
-        "text": "Frase per il giorno 20"
+        "type": "video",
+        "src": "images/20.mp4",
+        "text": "Gemellini come le nostre anime"
     },
     {
         "day": 21,
-        "type": "image",
-        "src": "images/21.jpg",
-        "text": "Frase per il giorno 21"
+        "type": "video",
+        "src": "images/21.mp4",
+        "text": "Sei la mia casa"
     },
     {
         "day": 22,
         "type": "image",
         "src": "images/22.jpg",
-        "text": "Frase per il giorno 22"
+        "text": "Sei mia per sempre"
     },
     {
         "day": 23,
         "type": "image",
         "src": "images/23.jpg",
-        "text": "Frase per il giorno 23"
+        "text": "Sei la mia dea"
     },
     {
         "day": 24,
         "type": "image",
         "src": "images/24.jpg",
-        "text": "Frase per il giorno 24"
+        "text": "Amo scoprire il mondo scalzo con te"
     }
 ]
