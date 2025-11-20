@@ -15,19 +15,19 @@
         "day": 3,
         "type": "video",
         "src": "images/3.mp4",
-        "text": "Amo quando ci coccoliamo"
+        "text": "Amo quando ci coccoliamo \ud83d\ude3b"
     },
     {
         "day": 4,
         "type": "image",
         "src": "images/4.jpg",
-        "text": "Amo farti ridere"
+        "text": "Amo farti ridere \ud83e\udd0f"
     },
     {
         "day": 5,
         "type": "video",
         "src": "images/5.mp4",
-        "text": "Amo i tuoi occhioni"
+        "text": "Amo i tuoi occhioni \ud83d\udc40"
     },
     {
         "day": 6,
@@ -39,43 +39,43 @@
         "day": 7,
         "type": "image",
         "src": "images/7.jpg",
-        "text": "Non vedo l'ora di scoprire il mondo assieme a te"
+        "text": "Non vedo l'ora di scoprire il mondo assieme a te \ud83c\udf0e"
     },
     {
         "day": 8,
         "type": "image",
         "src": "images/8.jpg",
-        "text": "O mi sposo con te o starò da solo per sempre"
+        "text": "O mi sposo con te o starò da solo per sempre \ud83d\udc8d"
     },
     {
         "day": 9,
         "type": "image",
         "src": "images/9.jpg",
-        "text": "Il nostro amore è travolgente"
+        "text": "Il nostro amore è travolgente \ud83e\udd0d"
     },
     {
         "day": 10,
         "type": "image",
         "src": "images/10.jpg",
-        "text": "Sei piccolissima devi coprirti"
+        "text": "Sei piccolissima devi coprirti \ud83e\udd0f"
     },
     {
         "day": 11,
         "type": "video",
         "src": "images/11.mp4",
-        "text": "Ci amo"
+        "text": "Ci amo \ud83d\ude3b"
     },
     {
         "day": 12,
         "type": "image",
         "src": "images/12.jpg",
-        "text": "Ti guarderò sempre così"
+        "text": "Ti guarderò sempre così, come dal primo giorno \ud83e\uddf5"
     },
     {
         "day": 13,
         "type": "image",
         "src": "images/13.jpg",
-        "text": "Spero che tutti i prossimi 150 compleanni li passeremo così"
+        "text": "Spero che tutti i prossimi 150 compleanni li passeremo così \ud83d\udc6b"
     },
     {
         "day": 14,
@@ -93,7 +93,7 @@
         "day": 16,
         "type": "image",
         "src": "images/16.jpg",
-        "text": "Amo viziarti"
+        "text": "Amo viziarti \ud83c\udf6f \ud83c\udf69 \ud83c\udf6d \ud83c\udf61 \ud83e\uddc1 \ud83c\udf6b"
     },
     {
         "day": 17,
@@ -111,25 +111,25 @@
         "day": 19,
         "type": "image",
         "src": "images/19.jpg",
-        "text": "Amo quando mi coccoli"
+        "text": "Amo quando mi coccoli \ud83d\ude3b"
     },
     {
         "day": 20,
         "type": "video",
         "src": "images/20.mp4",
-        "text": "Gemellini come le nostre anime"
+        "text": "Gemellini come le nostre anime \ud83e\udd68"
     },
     {
         "day": 21,
         "type": "video",
         "src": "images/21.mp4",
-        "text": "Sei la mia casa"
+        "text": "Sei la mia casa \ud83c\udfe9"
     },
     {
         "day": 22,
         "type": "image",
         "src": "images/22.jpg",
-        "text": "Sei mia per sempre"
+        "text": "Sei mia per sempre \u267e\ufe0f"
     },
     {
         "day": 23,
@@ -141,6 +141,6 @@
         "day": 24,
         "type": "video",
         "src": "images/24.mp4",
-        "text": "Amo scoprire il mondo scalzo con te"
+        "text": "Amo scoprire il mondo scalzo con te \ud83d\udc3e"
     }
 ]
