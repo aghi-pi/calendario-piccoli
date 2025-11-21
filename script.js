@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(response => response.json())
         .then(data => {
             const today = new Date();
-            const currentDay = 12
-            const currentMonth = 12; // dicembre = 12
+            const currentDay = today.getDate();
+            const currentMonth = today.getMonth(); // dicembre = 12
 			
 
             for (let i = 1; i <= 24; i++) {
