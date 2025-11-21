@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const today = new Date();
             const currentDay = today.getDate();
             const currentMonth = today.getMonth(); // dicembre = 12
+			
 
             for (let i = 1; i <= 24; i++) {
                 const dayDiv = document.createElement('div');
@@ -19,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 dayDiv.textContent = i;
 
                 // ✅ Controllo su mese e giorno
-                if (currentMonth === 12 && i > currentDay) {
+                if (currentMonth !== 12 || i > currentDay) {
                     // Caselle future bloccate
                     dayDiv.classList.add('locked');
                 } else {
