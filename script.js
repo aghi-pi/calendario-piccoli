@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(data => {
             const today = new Date();
             const currentDay = today.getDate();
-            const currentMonth = today.getMonth() + 1; // dicembre = 12
+            const currentMonth = today.getMonth(); // dicembre = 12
 
             for (let i = 1; i <= 24; i++) {
                 const dayDiv = document.createElement('div');
